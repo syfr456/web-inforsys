@@ -1,0 +1,88 @@
+<!-- <nav class="uk-navbar-container uk-margin" uk-navbar>
+  <div class="uk-navbar-left">
+    <a class="uk-navbar-item uk-logo" href="#" routerLink="/home">
+      <img src="../assets/inforsys.png" alt="" />
+    </a>
+  </div> -->
+
+<header>
+  <div class="container flex">
+    <div class="logo">
+      <a href="#"><img src="../../assets/inforsys.png" alt="logo" /></a>
+    </div>
+    <!-- checkbox -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <nav>
+      <ul class="nav-link">
+        <li><a href="#home" routerLink="/home">Home</a></li>
+        <li><a href="#sofi" routerLink="/sofi">SOFI</a></li>
+        <li><a href="#pisi" routerLink="/pisi">PISI</a></li>
+        <li><a href="#about" routerLink="/about">About Us</a></li>
+        <li><a href="#contact" routerLink="/contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </div>
+</header>
+<!-- <body class="uk-background-cover" style="background-image: url(../../assets/hero-1-bg-img.png);"> -->
+
+<router-outlet> </router-outlet>
+
+<!-- </body> -->
+
+<footer>
+  <div class="uk-container uk-flex uk-padding">
+    <div class="address uk-flex-1">
+      <h1><img src="../../assets/inforsys-white.png" alt="logo" /></h1>
+
+      <p class="uk-text-muted">PT Inforsys Indonesia</p>
+      <p class="uk-text-muted">Orchard Walk Blok C#18</p>
+      <p class="uk-text-muted">Jl. Orchard Boulevard</p>
+      <p class="uk-text-muted">Orchard Park Batam</p>
+      <p class="uk-text-muted">Batam Kota</p>
+      <p class="uk-text-muted">Kepulauan Riau 29464</p>
+    </div>
+    <div class="uk-flex uk-flex-between uk-flex-1">
+      <ul class="uk-list">
+        <h6>ABOUT US</h6>
+        <li>
+          <a class="uk-link-muted" href="#" routerLink="/about">About</a>
+        </li>
+        <li>
+          <a class="uk-link-muted" href="#" routerLink="/career">Career</a>
+        </li>
+        <li>
+          <a class="uk-link-muted" href="#" routerLink="/contact">Contact</a>
+        </li>
+      </ul>
+      <ul class="uk-list">
+        <h6>PRODUCTS</h6>
+        <li><a class="uk-link-muted" href="#" routerLink="/sofi">SOFI</a></li>
+        <li><a class="uk-link-muted" href="#" routerLink="/pisi">PISI</a></li>
+      </ul>
+      <ul class="uk-list">
+        <h6>SUPPORT</h6>
+        <li>
+          <a class="uk-link-muted" href="#" routerLink="/terms"
+            >Terms & Conditions</a
+          >
+        </li>
+        <li>
+          <a class="uk-link-muted" href="#" routerLink="/privacy"
+            >Privacy Policy</a
+          >
+        </li>
+        <li>
+          <a class="uk-link-muted" href="#" routerLink="/covid">Covid-19</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="uk-text-center copyright">
+    <p>2021 &copy; PT Inforsys Indonesia.</p>
+  </div>
+</footer>
+<!-- </nav> -->
